@@ -88,7 +88,6 @@ namespace BMS_Diagnostic_2
             foreach (InstalledProgram iP in instPrograms)
             {
                 sw.WriteLine(iP.displayName+";"+ iP.displayVersion+";"+iP.estimatedSize+";"+iP.installDate+";"+iP.installLocation+";"+iP.publisher);
-                sw.WriteLine();
             }
             sw.Close();
         }
